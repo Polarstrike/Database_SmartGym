@@ -1,0 +1,54 @@
+
+VINCOLI DI INTEGRITA GENERICI ->ci sono gia 2 trigger nelle operazioni GG        
+
+manca una tabella ISCRIZIONI con IdCorso, CodFIscale, DataIscrizione   DONE
+
+manca una tabella ISCRIZIONI con IdCorso, CodFIscale, DataIscrizione       DONE
+
+la tabella armadietto deve contenere anche un attributo STATO che ci dica se è libero o occupato     DONE
+
+
+nella tabella risposta deve esserci l'username di chi l'ha pubblicata.
+nella tabella post e utente va cambiato il nome dell`attributo "IdUtente" in username,   DONE!!
+tanto anche l`username e unico e non serve una chiave NUMERICA
+
+Aggiungere attributo CodFiscale nella tabella Utente
+TUTTE le tabelle areaforum-thread-post-risposta-link sono uno dentro l-altro   DONE !! 
+come centro-sala, mancano le chiavi esterne
+
+** Aggiungere tabella: Impiego
+FK IdCentro
+Fk Codice                                    			DONEEE!!
+attributo normale Attivita
+(rappresenta relazione tra dipendente e centro)
+
+
+** Va aggiunta la Tabella Sessione (c'è nella documentazione)      DONEEE!!
+
+**Aggiungere Cliente nella scheda allenamento  DONE!!
+
+
+**Aggiungere Cliente nella scheda alimentazione DONE!!
+
+**Eliminare TABELLA Regolazioni  DONE!!
+
+Tabella StatisticaCLiente modificare IdCliente in CodFiscale DONE!!
+
+Aggiungere a Tabella Accesso un attributo Armadietto (rappresenta l'id dell'armadietto occupato in quell'accesso)    DONE
+
+Tabella armadietto RIMUOVERE attributo IdAccesso  DONE!!
+
+Aggiungere TABELLA Insegnamento (IdCorso, CodFiscale)  DONE!!
+
+
+Aggiungere tabella Giacenza(IdIntegratore, IdCentro, Quantita) DONE!!
+
+Aggiungere Tabella Acquisto (CodFiscale, IdIntegratore, Data, Quantita, Centro)     DONE!!
+ 
+Aggiungere Tabella Commercializzati(IdIntegratore, IdFornitore, Prezzo)    DONE!!!
+
+AGGIUNGERE attributo IDINTERESSE alla tabella CERCHIA   DONE!!
+
+
+
+

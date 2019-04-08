@@ -1,0 +1,40 @@
+RIGUARDANO LO SCRIPT DEL DATABASE, IL DIAGRAMMA ER è aggiornato!!!
+
+
+
+Aggiungere tabella OrarioLavoro (CodFiscale, IdTurno)  DONE!!  **** ( non ci va anche l'attributo IdCentro per vedere in quale centro fanno il turno? )
+////SI VA AGGIUNTO
+
+***vanno solo inseriti i record in RICHIESTA AMICIZIA
+
+**Aggiungere Tutor nella scheda allenamento    ****(suppongo devo creare anche la tabella Tutor dato che non ce l'ho, o forse intendi dipendente ? non so ) 
+/////////NELLO SCHEMA TUTOR così come Nutrizionista sono delle generalizzazioni di dipendente, la tabella tutor non esiste, esiste solo dipendente, ma chiamiamo l'attributo Tutor per maggiore chiarezza
+////////L'attributo Tutor indica il CodFiscale di un dipendente che come ulteriore vincolo ha anche di dover essere di Tipo = Tutor
+			
+
+
+
+*/////////// TO DOOOOOOOOOOOOOOOOOOOO
+
+****Aggiungere attributo Thread alla tabella sfida (rappresenta IdThread associato a quella sfida)
+****Aggiungere attributo Proponente alla tabella sfida (rappresenta username di chi propone la sfida) 
+	è FK di Utente
+
+****Aggiungere Tabella Partecipante con attributi(IdSfida, Username) ENTRAMBE chiavi primarie
+	rappresenta quali Utenti partecipano alle varie sfide
+	
+	
+****Tabella Risposta, eliminare attributi Punteggio e NumValutazione
+****Tabella Risposta, aggiungere attributo sommaVoti (int)
+
+****Aggiungere tabella Valutazione con attributi:
+	IdValutazione(PrimaryKey), IdRisposta(FK), Username(FK), Voto (metti da 0 a 5 stile tripAdvisor, boh vedi te)
+	
+
+	
+	partecipante
+	valutazione
+	risposta
+	sfida
+	schedaalenamneto
+	

@@ -1,0 +1,18 @@
+
+
+Aggiunta ridondanza per OP 7
+
+Attributo SommaValutazioni nella tabella RISPOSTA
+	permette un rapido calcolo della credibilita
+	
+
+	
+	
+	
+	
+	
+	
+Aggiunta ridondanza per OP 1
+
+Attributo Stato nella tabella ARMADIETTO
+	permette di individuare se l'armadietto è libero o occupato

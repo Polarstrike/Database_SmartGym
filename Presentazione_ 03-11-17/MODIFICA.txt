@@ -1,0 +1,3 @@
+
+
+-- Rimossa relazione tra ACCESSO e ARMADIETTO (assegnamento) 
